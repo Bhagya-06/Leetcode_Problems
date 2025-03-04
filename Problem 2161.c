@@ -1,3 +1,5 @@
+//Leetcode Problem 2161: Partition Array According to Given Pivot
+
 int* pivotArray(int* nums, int numsSize, int pivot, int* returnSize) {
     int* result = (int*)malloc(numsSize * sizeof(int)); // Use malloc to dynamically allocate memory
     int index = 0;
